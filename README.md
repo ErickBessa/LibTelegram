@@ -1,6 +1,4 @@
 # LibTelegram
-
-## O que o projeto faz ?
 _LibTelegram_ é uma biblioteca escrita em C# para facilitar o uso do bot telegram. Com ela podemos enviar textos e imagens para algum canal do telegram a partir de um bot. 
 
 ## Por que o projeto é útil?
