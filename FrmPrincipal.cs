@@ -13,35 +13,20 @@ namespace TelegramSendMessage
         public FormTelegram()
         {
             InitializeComponent();
-
             openFile = new OpenFileDialog();
         }
 
         private void FormTelegram_Load(object sender, EventArgs e)
         {
-            string botApiKey = string.Empty;
-            try
-            {
-                botApiKey = (string)ConfigurationManager.AppSettings["BotApiKey"];
-                txtBotApiKey.Text = botApiKey;
-            }
-            catch { }
-
-            string botName = string.Empty;
-            try
-            {
-                botName = (string)ConfigurationManager.AppSettings["BotName"];
-                txtBotName.Text = botName;
-            }
-            catch { }
-
-            bot = new BotTelegram(botApiKey, botName);
         }
 
         private void btnSendMessage_Click(object sender, EventArgs e)
         {
             try
-            {
+            {   
+                if (bot == null)
+                    bot = new BotTelegram(txtBotApiKey.Text, txtBotName.Text);
+
                 bot.SendMessage(txtMessage.Text, txtNameChannel.Text);
                 txtMessage.Clear();
             }
