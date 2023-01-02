@@ -63,7 +63,7 @@
             // txtMessage
             // 
             this.txtMessage.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtMessage.Location = new System.Drawing.Point(3, 22);
+            this.txtMessage.Location = new System.Drawing.Point(3, 26);
             this.txtMessage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMessage.Multiline = true;
             this.txtMessage.Name = "txtMessage";
@@ -76,7 +76,7 @@
             this.txtBotApiKey.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBotApiKey.Name = "txtBotApiKey";
             this.txtBotApiKey.ReadOnly = true;
-            this.txtBotApiKey.Size = new System.Drawing.Size(321, 26);
+            this.txtBotApiKey.Size = new System.Drawing.Size(321, 30);
             this.txtBotApiKey.TabIndex = 2;
             // 
             // txtBotName
@@ -85,7 +85,7 @@
             this.txtBotName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBotName.Name = "txtBotName";
             this.txtBotName.ReadOnly = true;
-            this.txtBotName.Size = new System.Drawing.Size(321, 26);
+            this.txtBotName.Size = new System.Drawing.Size(321, 30);
             this.txtBotName.TabIndex = 3;
             // 
             // label1
@@ -94,7 +94,7 @@
             this.label1.Location = new System.Drawing.Point(13, 70);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 20);
+            this.label1.Size = new System.Drawing.Size(111, 25);
             this.label1.TabIndex = 4;
             this.label1.Text = "BotApiKey:";
             // 
@@ -104,7 +104,7 @@
             this.label2.Location = new System.Drawing.Point(13, 37);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 20);
+            this.label2.Size = new System.Drawing.Size(99, 25);
             this.label2.TabIndex = 5;
             this.label2.Text = "BotName:";
             // 
@@ -114,7 +114,7 @@
             this.label3.Location = new System.Drawing.Point(13, 103);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 20);
+            this.label3.Size = new System.Drawing.Size(92, 25);
             this.label3.TabIndex = 7;
             this.label3.Text = "Channel:";
             // 
@@ -123,7 +123,7 @@
             this.txtNameChannel.Location = new System.Drawing.Point(108, 100);
             this.txtNameChannel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNameChannel.Name = "txtNameChannel";
-            this.txtNameChannel.Size = new System.Drawing.Size(321, 26);
+            this.txtNameChannel.Size = new System.Drawing.Size(321, 30);
             this.txtNameChannel.TabIndex = 6;
             // 
             // groupBox1
@@ -181,7 +181,7 @@
             this.txtPathImg.Location = new System.Drawing.Point(79, 41);
             this.txtPathImg.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPathImg.Name = "txtPathImg";
-            this.txtPathImg.Size = new System.Drawing.Size(321, 26);
+            this.txtPathImg.Size = new System.Drawing.Size(321, 30);
             this.txtPathImg.TabIndex = 6;
             // 
             // label4
@@ -190,7 +190,7 @@
             this.label4.Location = new System.Drawing.Point(7, 44);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 20);
+            this.label4.Size = new System.Drawing.Size(90, 25);
             this.label4.TabIndex = 7;
             this.label4.Text = "Diretório:";
             // 
@@ -208,9 +208,9 @@
             // 
             // FormTelegram
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 458);
+            this.ClientSize = new System.Drawing.Size(482, 450);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
