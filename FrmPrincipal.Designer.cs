@@ -75,7 +75,6 @@
             this.txtBotApiKey.Location = new System.Drawing.Point(108, 67);
             this.txtBotApiKey.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBotApiKey.Name = "txtBotApiKey";
-            this.txtBotApiKey.ReadOnly = true;
             this.txtBotApiKey.Size = new System.Drawing.Size(321, 30);
             this.txtBotApiKey.TabIndex = 2;
             // 
@@ -84,7 +83,6 @@
             this.txtBotName.Location = new System.Drawing.Point(108, 34);
             this.txtBotName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBotName.Name = "txtBotName";
-            this.txtBotName.ReadOnly = true;
             this.txtBotName.Size = new System.Drawing.Size(321, 30);
             this.txtBotName.TabIndex = 3;
             // 

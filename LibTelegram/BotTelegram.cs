@@ -38,7 +38,7 @@ namespace LibTelegram
         }
 
         /// <summary>
-        /// Sende message to channel.
+        /// Send message to channel.
         /// </summary>
         /// <param name="message"></param>
         /// <param name="chatId"></param>
@@ -76,6 +76,10 @@ namespace LibTelegram
                 {
                     Message.ShowError("Erro (SendMessage): " + ex.Message);
                 }
+            }
+            else
+            {
+                Message.ShowError($"Erro (SendMessage): Bot {_botName} não encontrado!");
             }
         }
 
